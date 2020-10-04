@@ -44,7 +44,7 @@ class Stack():
     def isEmpty(self):
         return self._head == -1 #If the pointer is -1, i.e. the head is not pointing to anything, the stack is empty.
 
-#Test with a Stack of Length 5 named 's'
+#Testing Playground with a Stack of Length 5 named 's'
 s = Stack(5)
 print("Created Stack of Length 5: No values")
 print("empty",s.isEmpty())
